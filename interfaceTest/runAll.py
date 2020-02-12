@@ -80,11 +80,11 @@ class AllTest:#定义一个类AllTest
                 print("Have no case to test.")
         except Exception as ex:
             print(str(ex))
-            #log.info(str(ex))
+            log.info(str(ex))
 
         finally:
             print("*********TEST END*********")
-            #log.info("*********TEST END*********")
+            log.info("*********TEST END*********")
             fp.close()
         #判断邮件发送的开关
         if on_off == 'on':
